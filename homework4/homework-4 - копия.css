@@ -1,0 +1,71 @@
+#frame
+{
+    width: 1000px; /* ширина */
+    background-color: white; /* цвет фона */
+    margin: auto; /* Выравнивание по центру */
+    display: table; /* Отображение в табличной форме представление в форме таблицы) */
+    height: 200%; /* высота */
+
+}
+  
+#header
+{
+    width:940px; /* ширина */
+    height: 40px; /* высота */
+    background-color: peachpuff; /* цвет фона */
+    margin: auto; /* Выравнивание по центру */
+    margin-top: 10px; /* Отступ от верхней границы сайта */
+    padding: 20px; /* внутренний отступ */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+#footer
+{
+    display: table-footer-group;
+    width: 950px;
+    height: 100px;
+    background-color: peachpuff;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+#content
+{
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+    margin: 25px;
+    float: left;
+}
+#sidebar
+{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 15px;
+    float: right;
+}
+#menu
+{
+    background: lightblue;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: "Arial Black";
+    text-align: center;
+}
+#inMenu
+{
+    float: left;
+    background: lightblue;
+    margin: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+#inMenu a
+{
+    display: block;
+}
